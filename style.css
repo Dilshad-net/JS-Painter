@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: inherit;*/
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.colorSelector{
+  margin-top: 1rem;
+  display: flex;
+  float: right;
+  border: 0.5px dotted silver;
+  outline: none;
+  background: transparent;
+}
+.toolSelector{
+  margin-top: 1rem;
+  display: flex;
+  float: left;
+  border: 0.5px dotted silver;
+}
+#canvas {
+  border: 1px solid gold;
+}
